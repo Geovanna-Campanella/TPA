@@ -38,6 +38,6 @@ public class PesoIdeal {
 		
 		System.out.println("Adeus! :D ");
 		
-		
+		in.close();
 	}
 }
