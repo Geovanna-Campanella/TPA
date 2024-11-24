@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class RelaçãoDivisores {
+public class prjRelaÃ§Ã£oDivisores {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		double n, f, A[];
@@ -8,10 +8,10 @@ public class RelaçãoDivisores {
 		A = new double [TAM];
 	
 		for (j=0; j<10; j++) {
-			System.out.println("Digite o número");
+			System.out.println("Digite o nÃºmero");
 			A[j] = in.nextInt();
 		
-			System.out.print( "Seus divisores são: " );
+			System.out.print( "Seus divisores sÃ£o: " );
 			for (i=0; i<A[j]; i++) {
 				f = A[j]%i;
 				
