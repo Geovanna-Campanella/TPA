@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class RelaçãoPares {
+public class prjRelaÃ§Ã£oPares {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		int i, j, A[];
@@ -7,7 +7,7 @@ public class RelaçãoPares {
 		A = new int [TAM];
 		
 		for (j=0; j<10; j++) {
-			System.out.println("Digite o número");
+			System.out.println("Digite o nÃºmero");
 			A[j] = in.nextInt();
 		
 			for (i=0; i<=A[j]; i=i+2 ) {
