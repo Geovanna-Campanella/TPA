@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Intersecção {
+public class prjIntersecÃ§Ã£o {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		int i, j, A[], B[], C[];
@@ -9,12 +9,12 @@ public class Intersecção {
 		C = new int [TAM];
 		
 		for(i=0; i<10; i++) {
-			System.out.println("Digite o " + (i+1) + " número do conjunto A:");
+			System.out.println("Digite o " + (i+1) + " nÃºmero do conjunto A:");
 			A[i] = in.nextInt();
 		}
 			
 		for(j=0; j<10; j++) {
-			System.out.println("Digite o " + (j+1) + " número do conjunto B:");
+			System.out.println("Digite o " + (j+1) + " nÃºmero do conjunto B:");
 			B[j] = in.nextInt();
 			
 			for(i=0; i<10; i++) {
